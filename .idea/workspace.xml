@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4ecc260-e140-4e67-8114-b1730f7f60ed" name="Default Changelist" comment="提交moco与httpclient课程代码">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_4_28_21_56_[Default_Changelist]/moco-runner-0.11.0-standalone.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_4_28_21_56_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_4_28_21_56__Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/target/classes/com/tester/extend/demo/ExtentTestNGIReporterListener$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/target/classes/com/tester/extend/demo/ExtentTestNGIReporterListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/target/classes/com/tester/extend/demo/ExtentTestNGIReporterListenerOld$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/target/classes/com/tester/extend/demo/ExtentTestNGIReporterListenerOld.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/target/classes/com/tester/extend/demo/TestMethodsDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/target/classes/log.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/moco-runner-0.11.0-standalone.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter09/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter09/target/classes/com/course/httpclient/cookies/MyCookiesForGet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter09/target/classes/com/course/httpclient/cookies/MyCookiesForPost.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter09/target/classes/com/course/httpclient/demo/MyHttpClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b4ecc260-e140-4e67-8114-b1730f7f60ed" name="Default Changelist" comment="提交moco与httpclient课程代码222" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -211,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619618420211</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="提交moco与httpclient课程代码222">
+      <created>1619618683482</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619618683482</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,7 +222,8 @@
     <MESSAGE value="提交创建testng框架搭建成功代码" />
     <MESSAGE value="提交创建testng框架-groups" />
     <MESSAGE value="提交moco与httpclient课程代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交moco与httpclient课程代码" />
+    <MESSAGE value="提交moco与httpclient课程代码222" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交moco与httpclient课程代码222" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
