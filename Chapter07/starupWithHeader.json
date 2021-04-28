@@ -1,0 +1,30 @@
+[
+  {
+    "description": "这是一个自带hearder报文的请求",
+    "request": {
+      "uri": "/post/with/headers",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "json": {
+        "username": "zhangsan",
+        "password": "123456"
+      }
+    },
+    "response": {
+      "json": {
+        "messages": "success",
+        "code": "200"
+      },
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  }
+
+
+]
