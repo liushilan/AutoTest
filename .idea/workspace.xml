@@ -4,56 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4ecc260-e140-4e67-8114-b1730f7f60ed" name="Default Changelist" comment="提交创建testng框架-dev提交">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_70.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_3_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vimalselvam_testng_extentsreport_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20170516.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/src/main/java/com/course/testng/multThread/MultiThreadOnAnnotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/src/main/java/com/course/testng/multThread/MultiThreadOnXml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/Chapter06.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/src/main/java/com/tester/extend/demo/ExtentTestNGIReporterListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/src/main/java/com/tester/extend/demo/ExtentTestNGIReporterListenerOld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/src/main/java/com/tester/extend/demo/TestMethodsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/src/main/resources/log.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/test-output/index.html" afterDir="false" />
+    <list default="true" id="b4ecc260-e140-4e67-8114-b1730f7f60ed" name="Default Changelist" comment="提交moco与httpclient课程代码">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_4_28_21_56_[Default_Changelist]/moco-runner-0.11.0-standalone.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_4_28_21_56_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_4_28_21_56__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/target/classes/com/tester/extend/demo/ExtentTestNGIReporterListener$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/target/classes/com/tester/extend/demo/ExtentTestNGIReporterListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/target/classes/com/tester/extend/demo/ExtentTestNGIReporterListenerOld$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/target/classes/com/tester/extend/demo/ExtentTestNGIReporterListenerOld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/target/classes/com/tester/extend/demo/TestMethodsDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/target/classes/log.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Chapter07/moco-runner-0.11.0-standalone.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/startup.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/startupGet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/startupPost.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/starupWithCookies.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/starupWithHeader.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/starupWithRedirct.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter09/Chapter09.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter09/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter09/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter09/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter09/src/main/java/com/course/httpclient/demo/MyHttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter09/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AutoTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AutoTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter09/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter09/target/classes/com/course/httpclient/cookies/MyCookiesForGet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter09/target/classes/com/course/httpclient/cookies/MyCookiesForPost.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter09/target/classes/com/course/httpclient/demo/MyHttpClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter05/Chapter05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter05/Chapter05.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +42,7 @@
         <entry key="$PROJECT_DIR$/Chapter05" value="master" />
       </map>
     </option>
-    <option name="RECENT_COMMON_BRANCH" value="master" />
+    <option name="RECENT_COMMON_BRANCH" value="dev" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -231,7 +197,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619509896680</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="提交moco与httpclient课程代码">
+      <created>1619618372342</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619618372342</updated>
+    </task>
+    <task id="LOCAL-00004" summary="提交moco与httpclient课程代码">
+      <created>1619618420211</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619618420211</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,22 +230,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="提交创建testng框架搭建成功代码" />
     <MESSAGE value="提交创建testng框架-groups" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交创建testng框架-groups" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Chapter09/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java</url>
-          <line>95</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="提交moco与httpclient课程代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交moco与httpclient课程代码" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
