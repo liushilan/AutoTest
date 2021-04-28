@@ -1,0 +1,2720 @@
+Index: .idea/AutoTest.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\" />\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/AutoTest.iml b/.idea/AutoTest.iml
+--- a/.idea/AutoTest.iml	(revision ebeeb1e2c09a73f0a6607965f334bfa2c926725c)
++++ b/.idea/AutoTest.iml	(date 1619606396021)
+@@ -1,8 +1,11 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<module type="JAVA_MODULE" version="4">
+-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+-    <exclude-output />
+-    <content url="file://$MODULE_DIR$" />
++<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
++    <output url="file://$MODULE_DIR$/target/classes" />
++    <output-test url="file://$MODULE_DIR$/target/test-classes" />
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/target" />
++    </content>
+     <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"b4ecc260-e140-4e67-8114-b1730f7f60ed\" name=\"Default Changelist\" comment=\"提交创建testng框架-groups\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$/Chapter05\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_COMMON_BRANCH\" value=\"master\" />\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/Chapter05\" />\r\n    <option name=\"ROOT_SYNC\" value=\"SYNC\" />\r\n  </component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"83ea5e8c-9ed3-41a0-84dc-a3ee07ac0b42\" />\r\n        <option name=\"url\" value=\"https://github.com/liushilan/AutoTest.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"mavenHome\" value=\"E:/apache-maven-3.5.4-bin/apache-maven-3.5.4\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1rjVdEMdNtf1BkDCI24JjtzQDhr\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"jdk.selected.JAVA_MODULE\" value=\"1.8\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Project\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.0\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.0\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"vcs.Git\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"TestNG.D:/AutoTest/Chapter05/src/main/resources/groupsOnClass.xml\">\r\n    <configuration name=\"BasicAnnotation\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Chapter05\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.course.testng.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.course.testng\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.course.testng.BasicAnnotation\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"D:/AutoTest/Chapter05/src/main/resources/groupsOnClass.xml\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Chapter05\" />\r\n      <option name=\"SUITE_NAME\" value=\"$PROJECT_DIR$/Chapter05/src/main/resources/groupsOnClass.xml\" />\r\n      <option name=\"TEST_OBJECT\" value=\"SUITE\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"D:/AutoTest/Chapter05/src/main/resources/suite.xml\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Chapter05\" />\r\n      <option name=\"SUITE_NAME\" value=\"$PROJECT_DIR$/Chapter05/src/main/resources/suite.xml\" />\r\n      <option name=\"TEST_OBJECT\" value=\"SUITE\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"GroupsOnMethod\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Chapter05\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.course.testng.groups.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.course.testng.groups\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.course.testng.groups.GroupsOnMethod\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"GroupsOnMethod.test1\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Chapter05\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.course.testng.groups.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.course.testng.groups\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.course.testng.groups.GroupsOnMethod\" />\r\n      <option name=\"METHOD_NAME\" value=\"test1\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"TestNG.GroupsOnMethod.test1\" />\r\n        <item itemvalue=\"TestNG.GroupsOnMethod\" />\r\n        <item itemvalue=\"TestNG.D:/AutoTest/Chapter05/src/main/resources/suite.xml\" />\r\n        <item itemvalue=\"TestNG.D:/AutoTest/Chapter05/src/main/resources/groupsOnClass.xml\" />\r\n        <item itemvalue=\"TestNG.BasicAnnotation\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"b4ecc260-e140-4e67-8114-b1730f7f60ed\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1619489570620</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1619489570620</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"提交创建testng框架搭建成功代码\">\r\n      <created>1619491280535</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619491280535</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"提交创建testng框架-groups\">\r\n      <created>1619509896680</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619509896680</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"提交创建testng框架搭建成功代码\" />\r\n    <MESSAGE value=\"提交创建testng框架-groups\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"提交创建testng框架-groups\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision ebeeb1e2c09a73f0a6607965f334bfa2c926725c)
++++ b/.idea/workspace.xml	(date 1619606797148)
+@@ -4,8 +4,56 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="b4ecc260-e140-4e67-8114-b1730f7f60ed" name="Default Changelist" comment="提交创建testng框架-groups">
++    <list default="true" id="b4ecc260-e140-4e67-8114-b1730f7f60ed" name="Default Changelist" comment="提交创建testng框架-dev提交">
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_70.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_3_0_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_1.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vimalselvam_testng_extentsreport_1_3_1.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20170516.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_0_4.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_10.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter05/src/main/java/com/course/testng/multThread/MultiThreadOnAnnotion.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter05/src/main/java/com/course/testng/multThread/MultiThreadOnXml.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter06/Chapter06.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter06/pom.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter06/src/main/java/com/tester/extend/demo/ExtentTestNGIReporterListener.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter06/src/main/java/com/tester/extend/demo/ExtentTestNGIReporterListenerOld.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter06/src/main/java/com/tester/extend/demo/TestMethodsDemo.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter06/src/main/resources/log.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter06/test-output/index.html" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter07/moco-runner-0.11.0-standalone.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter07/startup.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter07/startupGet.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter07/startupPost.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter07/starupWithCookies.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter07/starupWithHeader.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter07/starupWithRedirct.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter07/txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter09/Chapter09.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter09/pom.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter09/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter09/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter09/src/main/java/com/course/httpclient/demo/MyHttpClient.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Chapter09/src/main/resources/application.properties" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/AutoTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AutoTest.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Chapter05/Chapter05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter05/Chapter05.iml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -18,6 +66,9 @@
+         <option value="Class" />
+       </list>
+     </option>
++  </component>
++  <component name="Git.Merge.Settings">
++    <option name="BRANCH" value="origin/main" />
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+@@ -26,7 +77,7 @@
+       </map>
+     </option>
+     <option name="RECENT_COMMON_BRANCH" value="master" />
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Chapter05" />
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+     <option name="ROOT_SYNC" value="SYNC" />
+   </component>
+   <component name="GithubPullRequestsUISettings">
+@@ -44,33 +95,47 @@
+       </MavenGeneralSettings>
+     </option>
+   </component>
++  <component name="MavenRunner">
++    <option name="skipTests" value="true" />
++  </component>
+   <component name="ProjectId" id="1rjVdEMdNtf1BkDCI24JjtzQDhr" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+   <component name="PropertiesComponent">
++    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
++    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
++    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
+     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+-    <property name="project.structure.last.edited" value="Project" />
+-    <property name="project.structure.proportion" value="0.0" />
+-    <property name="project.structure.side.proportion" value="0.0" />
+-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter07" />
++    <property name="project.structure.last.edited" value="Facets" />
++    <property name="project.structure.proportion" value="0.15" />
++    <property name="project.structure.side.proportion" value="0.2" />
++    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+   </component>
+-  <component name="RunManager" selected="TestNG.D:/AutoTest/Chapter05/src/main/resources/groupsOnClass.xml">
+-    <configuration name="BasicAnnotation" type="TestNG" temporary="true" nameIsGenerated="true">
+-      <module name="Chapter05" />
++  <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="D:\AutoTest\Chapter07" />
++      <recent name="D:\AutoTest\Chapter06\src\main\java\com\tester\extend\demo" />
++    </key>
++  </component>
++  <component name="RunManager" selected="TestNG.MyCookiesForPost.testGetWithCookies">
++    <configuration name="MyCookiesForGet" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="Chapter09" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.course.testng.*" />
++          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="com.course.testng" />
+-      <option name="MAIN_CLASS_NAME" value="com.course.testng.BasicAnnotation" />
++      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
++      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForGet" />
+       <option name="TEST_OBJECT" value="CLASS" />
+       <properties />
+       <listeners />
+@@ -78,53 +143,70 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="D:/AutoTest/Chapter05/src/main/resources/groupsOnClass.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+-      <module name="Chapter05" />
+-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter05/src/main/resources/groupsOnClass.xml" />
+-      <option name="TEST_OBJECT" value="SUITE" />
++    <configuration name="MyCookiesForGet.testGetCookies" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="Chapter09" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
++      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForGet" />
++      <option name="METHOD_NAME" value="testGetCookies" />
++      <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+       <listeners />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="D:/AutoTest/Chapter05/src/main/resources/suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+-      <module name="Chapter05" />
+-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter05/src/main/resources/suite.xml" />
+-      <option name="TEST_OBJECT" value="SUITE" />
++    <configuration name="MyCookiesForGet.testGetWithCookies" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="Chapter09" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
++      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForGet" />
++      <option name="METHOD_NAME" value="testGetWithCookies" />
++      <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+       <listeners />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="GroupsOnMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+-      <module name="Chapter05" />
++    <configuration name="MyCookiesForPost.testGetWithCookies" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="Chapter09" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.course.testng.groups.*" />
++          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="com.course.testng.groups" />
+-      <option name="MAIN_CLASS_NAME" value="com.course.testng.groups.GroupsOnMethod" />
+-      <option name="TEST_OBJECT" value="CLASS" />
++      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
++      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForPost" />
++      <option name="METHOD_NAME" value="testGetWithCookies" />
++      <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+       <listeners />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="GroupsOnMethod.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+-      <module name="Chapter05" />
++    <configuration name="MyHttpClient.test1" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="Chapter09" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.course.testng.groups.*" />
++          <option name="PATTERN" value="com.course.httpclient.demo.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="com.course.testng.groups" />
+-      <option name="MAIN_CLASS_NAME" value="com.course.testng.groups.GroupsOnMethod" />
++      <option name="PACKAGE_NAME" value="com.course.httpclient.demo" />
++      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.demo.MyHttpClient" />
+       <option name="METHOD_NAME" value="test1" />
+       <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+@@ -135,11 +217,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="TestNG.GroupsOnMethod.test1" />
+-        <item itemvalue="TestNG.GroupsOnMethod" />
+-        <item itemvalue="TestNG.D:/AutoTest/Chapter05/src/main/resources/suite.xml" />
+-        <item itemvalue="TestNG.D:/AutoTest/Chapter05/src/main/resources/groupsOnClass.xml" />
+-        <item itemvalue="TestNG.BasicAnnotation" />
++        <item itemvalue="TestNG.MyCookiesForPost.testGetWithCookies" />
++        <item itemvalue="TestNG.MyCookiesForGet.testGetWithCookies" />
++        <item itemvalue="TestNG.MyCookiesForGet" />
++        <item itemvalue="TestNG.MyCookiesForGet.testGetCookies" />
++        <item itemvalue="TestNG.MyHttpClient.test1" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -179,11 +261,28 @@
+         </entry>
+       </map>
+     </option>
++    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="VcsManagerConfiguration">
++    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+     <MESSAGE value="提交创建testng框架搭建成功代码" />
+     <MESSAGE value="提交创建testng框架-groups" />
+     <option name="LAST_COMMIT_MESSAGE" value="提交创建testng框架-groups" />
++  </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <breakpoints>
++        <breakpoint enabled="true" type="java-exception">
++          <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
++          <option name="timeStamp" value="1" />
++        </breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/Chapter09/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java</url>
++          <line>95</line>
++          <option name="timeStamp" value="2" />
++        </line-breakpoint>
++      </breakpoints>
++    </breakpoint-manager>
+   </component>
+   <component name="XSLT-Support.FileAssociations.UIState">
+     <expand />
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectModuleManager\">\r\n    <modules>\r\n      <module fileurl=\"file://$PROJECT_DIR$/.idea/AutoTest.iml\" filepath=\"$PROJECT_DIR$/.idea/AutoTest.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/Chapter05/Chapter05.iml\" filepath=\"$PROJECT_DIR$/Chapter05/Chapter05.iml\" />\r\n    </modules>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+--- a/.idea/modules.xml	(revision ebeeb1e2c09a73f0a6607965f334bfa2c926725c)
++++ b/.idea/modules.xml	(date 1619606396055)
+@@ -4,6 +4,8 @@
+     <modules>
+       <module fileurl="file://$PROJECT_DIR$/.idea/AutoTest.iml" filepath="$PROJECT_DIR$/.idea/AutoTest.iml" />
+       <module fileurl="file://$PROJECT_DIR$/Chapter05/Chapter05.iml" filepath="$PROJECT_DIR$/Chapter05/Chapter05.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Chapter06/Chapter06.iml" filepath="$PROJECT_DIR$/Chapter06/Chapter06.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Chapter09/Chapter09.iml" filepath="$PROJECT_DIR$/Chapter09/Chapter09.iml" />
+     </modules>
+   </component>
+ </project>
+\ No newline at end of file
+Index: Chapter09/Chapter09.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Chapter09/Chapter09.iml b/Chapter09/Chapter09.iml
+new file mode 100644
+--- /dev/null	(date 1619606639609)
++++ b/Chapter09/Chapter09.iml	(date 1619606639609)
+@@ -0,0 +1,24 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
++    <output url="file://$MODULE_DIR$/target/classes" />
++    <output-test url="file://$MODULE_DIR$/target/test-classes" />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
++      <excludeFolder url="file://$MODULE_DIR$/target" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="Maven: org.testng:testng:7.4.0" level="project" />
++    <orderEntry type="library" name="Maven: com.beust:jcommander:1.78" level="project" />
++    <orderEntry type="library" name="Maven: org.webjars:jquery:3.5.1" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.2" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.4" level="project" />
++    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
++    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.9" level="project" />
++    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.70" level="project" />
++    <orderEntry type="library" name="Maven: org.json:json:20170516" level="project" />
++  </component>
++</module>
+\ No newline at end of file
+Index: Chapter09/src/main/java/com/course/httpclient/demo/MyHttpClient.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Chapter09/src/main/java/com/course/httpclient/demo/MyHttpClient.java b/Chapter09/src/main/java/com/course/httpclient/demo/MyHttpClient.java
+new file mode 100644
+--- /dev/null	(date 1619582377449)
++++ b/Chapter09/src/main/java/com/course/httpclient/demo/MyHttpClient.java	(date 1619582377449)
+@@ -0,0 +1,32 @@
++package com.course.httpclient.demo;
++
++import org.apache.http.HttpResponse;
++import org.apache.http.client.HttpClient;
++import org.apache.http.client.methods.HttpGet;
++import org.apache.http.impl.client.DefaultHttpClient;
++import org.apache.http.util.EntityUtils;
++import org.testng.annotations.Test;
++
++import java.io.IOException;
++
++/**
++ * @auther jingsi
++ * @date Create on 2021/4/2811:49
++ * @hotkeys fori-for循环；sout-控制台输出；psvm-main函数
++ */
++
++public class MyHttpClient {
++
++    @Test
++    public void test1() throws IOException {
++        //用来存放我们的结果
++        String result;
++        HttpGet get =  new HttpGet("http://www.baidu.com");
++        //创建httpclient的对象
++        HttpClient client = new DefaultHttpClient();
++        HttpResponse response = client.execute(get);
++        result = EntityUtils.toString(response.getEntity());
++        System.out.println("返回httpclient框架的结果：" + result);
++    }
++}
++
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/Chapter05/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_16\" project-jdk-name=\"1.8\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision ebeeb1e2c09a73f0a6607965f334bfa2c926725c)
++++ b/.idea/misc.xml	(date 1619514544567)
+@@ -4,6 +4,8 @@
+     <option name="originalFiles">
+       <list>
+         <option value="$PROJECT_DIR$/Chapter05/pom.xml" />
++        <option value="$PROJECT_DIR$/Chapter06/pom.xml" />
++        <option value="$PROJECT_DIR$/pom.xml" />
+       </list>
+     </option>
+   </component>
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <annotationProcessing>\r\n      <profile name=\"Maven default annotation processors profile\" enabled=\"true\">\r\n        <sourceOutputDir name=\"target/generated-sources/annotations\" />\r\n        <sourceTestOutputDir name=\"target/generated-test-sources/test-annotations\" />\r\n        <outputRelativeToContentRoot value=\"true\" />\r\n        <module name=\"Chapter05\" />\r\n      </profile>\r\n    </annotationProcessing>\r\n    <bytecodeTargetLevel>\r\n      <module name=\"Chapter05\" target=\"1.5\" />\r\n    </bytecodeTargetLevel>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+--- a/.idea/compiler.xml	(revision ebeeb1e2c09a73f0a6607965f334bfa2c926725c)
++++ b/.idea/compiler.xml	(date 1619581904594)
+@@ -2,15 +2,21 @@
+ <project version="4">
+   <component name="CompilerConfiguration">
+     <annotationProcessing>
++      <profile default="true" name="Default" enabled="true" />
+       <profile name="Maven default annotation processors profile" enabled="true">
+         <sourceOutputDir name="target/generated-sources/annotations" />
+         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+         <outputRelativeToContentRoot value="true" />
+         <module name="Chapter05" />
++        <module name="Chapter06" />
++        <module name="Chapter09" />
+       </profile>
+     </annotationProcessing>
+     <bytecodeTargetLevel>
++      <module name="AutoTest" target="1.5" />
+       <module name="Chapter05" target="1.5" />
++      <module name="Chapter06" target="8" />
++      <module name="Chapter09" target="8" />
+     </bytecodeTargetLevel>
+   </component>
+ </project>
+\ No newline at end of file
+Index: Chapter06/src/main/java/com/tester/extend/demo/TestMethodsDemo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Chapter06/src/main/java/com/tester/extend/demo/TestMethodsDemo.java b/Chapter06/src/main/java/com/tester/extend/demo/TestMethodsDemo.java
+new file mode 100644
+--- /dev/null	(date 1619515395784)
++++ b/Chapter06/src/main/java/com/tester/extend/demo/TestMethodsDemo.java	(date 1619515395784)
+@@ -0,0 +1,37 @@
++package com.tester.extend.demo;
++
++import org.testng.Assert;
++import org.testng.Reporter;
++import org.testng.annotations.Test;
++
++/**
++ * @auther jingsi
++ * @date Create on 2021/4/2717:19
++ * @hotkeys fori-for循环；sout-控制台输出；psvm-main函数
++ */
++
++public class TestMethodsDemo {
++
++    @Test
++    public void test1(){
++        Assert.assertEquals(1,2);
++    }
++
++    @Test
++    public void test2(){
++        Assert.assertEquals(1,1);
++    }
++
++    @Test
++    public void test3(){
++        Assert.assertEquals("aaa","aaa");
++    }
++
++    @Test
++    public void logDemo(){
++        Reporter.log("这是我们自己写的日志");
++        throw new RuntimeException("这是我自己运行的异常");
++    }
++
++}
++
+Index: .idea/libraries/Maven__com_aventstack_extentreports_3_0_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_aventstack_extentreports_3_0_6.xml b/.idea/libraries/Maven__com_aventstack_extentreports_3_0_6.xml
+new file mode 100644
+--- /dev/null	(date 1619516858583)
++++ b/.idea/libraries/Maven__com_aventstack_extentreports_3_0_6.xml	(date 1619516858583)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.aventstack:extentreports:3.0.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/3.0.6/extentreports-3.0.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/3.0.6/extentreports-3.0.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__commons_logging_commons_logging_1_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml b/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml
+new file mode 100644
+--- /dev/null	(date 1619516693657)
++++ b/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml	(date 1619516693657)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: commons-logging:commons-logging:1.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__commons_codec_commons_codec_1_9.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml b/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml
+new file mode 100644
+--- /dev/null	(date 1619516693645)
++++ b/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml	(date 1619516693645)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: commons-codec:commons-codec:1.9">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.9/commons-codec-1.9.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.9/commons-codec-1.9-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.9/commons-codec-1.9-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_mongodb_bson_3_0_4.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_mongodb_bson_3_0_4.xml b/.idea/libraries/Maven__org_mongodb_bson_3_0_4.xml
+new file mode 100644
+--- /dev/null	(date 1619516858591)
++++ b/.idea/libraries/Maven__org_mongodb_bson_3_0_4.xml	(date 1619516858591)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.mongodb:bson:3.0.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/bson/3.0.4/bson-3.0.4.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/bson/3.0.4/bson-3.0.4-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/bson/3.0.4/bson-3.0.4-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml b/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml
+new file mode 100644
+--- /dev/null	(date 1619516693678)
++++ b/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml	(date 1619516693678)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.apache.httpcomponents:httpcore:4.4.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_google_guava_guava_20_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_google_guava_guava_20_0.xml b/.idea/libraries/Maven__com_google_guava_guava_20_0.xml
+new file mode 100644
+--- /dev/null	(date 1619515013089)
++++ b/.idea/libraries/Maven__com_google_guava_guava_20_0.xml	(date 1619515013089)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.google.guava:guava:20.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/20.0/guava-20.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/20.0/guava-20.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/20.0/guava-20.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml b/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml
+new file mode 100644
+--- /dev/null	(date 1619516693667)
++++ b/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml	(date 1619516693667)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.apache.httpcomponents:httpclient:4.5.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_vimalselvam_testng_extentsreport_1_3_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_vimalselvam_testng_extentsreport_1_3_1.xml b/.idea/libraries/Maven__com_vimalselvam_testng_extentsreport_1_3_1.xml
+new file mode 100644
+--- /dev/null	(date 1619515013113)
++++ b/.idea/libraries/Maven__com_vimalselvam_testng_extentsreport_1_3_1.xml	(date 1619515013113)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.vimalselvam:testng-extentsreport:1.3.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/vimalselvam/testng-extentsreport/1.3.1/testng-extentsreport-1.3.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/vimalselvam/testng-extentsreport/1.3.1/testng-extentsreport-1.3.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/vimalselvam/testng-extentsreport/1.3.1/testng-extentsreport-1.3.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: Chapter09/src/main/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Chapter09/src/main/resources/application.properties b/Chapter09/src/main/resources/application.properties
+new file mode 100644
+--- /dev/null	(date 1619595982843)
++++ b/Chapter09/src/main/resources/application.properties	(date 1619595982843)
+@@ -0,0 +1,11 @@
++# 测试环境地址
++test.url=http://localhost:8888
++# 预发环境测试
++dev.url=http://localhost:8888
++# 线上环境测试
++online.url=http://www.baidu.com
++
++getCookies.uri=/getCookies
++test.get.with.cookies=/get/with/cookies
++test.post.with.cookies=/post/with/cookies
++login=/login
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml b/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml
+new file mode 100644
+--- /dev/null	(date 1619516693690)
++++ b/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml	(date 1619516693690)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.apache.httpcomponents:httpmime:4.5.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_relevantcodes_extentreports_2_41_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_1.xml b/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_1.xml
+new file mode 100644
+--- /dev/null	(date 1619515013105)
++++ b/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_1.xml	(date 1619515013105)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.relevantcodes:extentreports:2.41.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml b/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml
+new file mode 100644
+--- /dev/null	(date 1619515013137)
++++ b/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml	(date 1619515013137)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.jsoup:jsoup:1.8.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.8.3/jsoup-1.8.3-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.8.3/jsoup-1.8.3-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: Chapter09/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Chapter09/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java b/Chapter09/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java
+new file mode 100644
+--- /dev/null	(date 1619595408054)
++++ b/Chapter09/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java	(date 1619595408054)
+@@ -0,0 +1,89 @@
++package com.course.httpclient.cookies;
++
++import org.apache.http.HttpResponse;
++import org.apache.http.client.CookieStore;
++import org.apache.http.client.HttpClient;
++import org.apache.http.client.methods.HttpGet;
++import org.apache.http.cookie.Cookie;
++import org.apache.http.impl.DefaultBHttpClientConnection;
++import org.apache.http.impl.client.DefaultHttpClient;
++import org.apache.http.util.EntityUtils;
++import org.testng.annotations.BeforeTest;
++import org.testng.annotations.Test;
++
++import java.io.IOException;
++import java.util.List;
++import java.util.Locale;
++import java.util.ResourceBundle;
++
++/**
++ * @auther jingsi
++ * @date Create on 2021/4/2814:20
++ * @hotkeys fori-for循环；sout-控制台输出；psvm-main函数
++ */
++
++public class MyCookiesForGet {
++
++    private String url;
++    private ResourceBundle bundle;
++    // 用来存储cookies
++    private CookieStore store;
++    @BeforeTest
++    public void beforeTest(){
++        bundle = ResourceBundle.getBundle("application", Locale.CHINA);
++        url = bundle.getString("test.url");
++    }
++
++    @Test
++    public void testGetCookies() throws IOException {
++        String result;
++        //从配置文件中 拼接测试的url
++        String uri = bundle.getString("getCookies.uri");
++        String testUrl = this.url + uri;
++//        System.out.println("--------" + testUrl);
++
++        //测试逻辑代码书写
++        HttpGet get = new HttpGet(testUrl);
++        DefaultHttpClient client = new DefaultHttpClient();
++        HttpResponse response = client.execute(get);
++        result  = EntityUtils.toString(response.getEntity(),"utf-8");
++        System.out.println("============" + result);
++
++        // 获取cookies信息
++        this.store = client.getCookieStore();
++        List<Cookie> cookies_list = store.getCookies();
++
++        for (Cookie c : cookies_list){
++            String name = c.getName();
++            String value = c.getValue();
++            System.out.println("cookies name = " + name +
++                    "\ncookies value = " + value);
++        }
++    }
++
++    @Test(dependsOnMethods = {"testGetCookies"})
++    public void testGetWithCookies() throws IOException {
++        // 拼接url+路径
++        String uri = bundle.getString("test.get.with.cookies");
++        String testurl = this.url + uri;
++
++        HttpGet get = new HttpGet(testurl);
++        DefaultHttpClient client = new DefaultHttpClient();
++
++        // 设置cookies信息
++        client.setCookieStore(this.store);
++
++        HttpResponse response = client.execute(get);
++
++        // 获取响应的状态码
++        int statuscode = response.getStatusLine().getStatusCode();
++        System.out.println("statusCode = " + statuscode);
++
++        if (statuscode==200){
++            String result = EntityUtils.toString(response.getEntity());
++            System.out.println("=======" + result);
++        }
++
++    }
++}
++
+Index: .idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml b/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml
+new file mode 100644
+--- /dev/null	(date 1619515013126)
++++ b/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml	(date 1619515013126)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.freemarker:freemarker:2.3.23">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.23/freemarker-2.3.23-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.23/freemarker-2.3.23-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml b/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml
+new file mode 100644
+--- /dev/null	(date 1619515013157)
++++ b/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml	(date 1619515013157)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.mongodb:mongodb-driver:3.0.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_alibaba_fastjson_1_2_70.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_alibaba_fastjson_1_2_70.xml b/.idea/libraries/Maven__com_alibaba_fastjson_1_2_70.xml
+new file mode 100644
+--- /dev/null	(date 1619604294814)
++++ b/.idea/libraries/Maven__com_alibaba_fastjson_1_2_70.xml	(date 1619604294814)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.alibaba:fastjson:1.2.70">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.70/fastjson-1.2.70.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.70/fastjson-1.2.70-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.70/fastjson-1.2.70-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml b/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml
+new file mode 100644
+--- /dev/null	(date 1619515013178)
++++ b/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml	(date 1619515013178)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.xerial:sqlite-jdbc:3.8.11.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml b/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml
+new file mode 100644
+--- /dev/null	(date 1619515013167)
++++ b/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml	(date 1619515013167)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.mongodb:mongodb-driver-core:3.0.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: Chapter09/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Chapter09/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java b/Chapter09/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java
+new file mode 100644
+--- /dev/null	(date 1619606902549)
++++ b/Chapter09/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java	(date 1619606902549)
+@@ -0,0 +1,115 @@
++package com.course.httpclient.cookies;
++
++import org.apache.http.HttpResponse;
++import org.apache.http.client.CookieStore;
++import org.apache.http.client.methods.HttpGet;
++import org.apache.http.client.methods.HttpPost;
++import org.apache.http.cookie.Cookie;
++import org.apache.http.entity.StringEntity;
++import org.apache.http.impl.client.DefaultHttpClient;
++import org.apache.http.util.EntityUtils;
++import org.json.JSONObject;
++import org.testng.Assert;
++import org.testng.annotations.BeforeTest;
++import org.testng.annotations.Test;
++
++import java.io.IOException;
++import java.util.List;
++import java.util.Locale;
++import java.util.ResourceBundle;
++
++/**
++ * @auther jingsi
++ * @date Create on 2021/4/2815:43
++ * @hotkeys fori-for循环；sout-控制台输出；psvm-main函数
++ */
++
++public class MyCookiesForPost {
++
++    private String url;
++    private ResourceBundle bundle;
++    // 用来存储cookies
++    private CookieStore store;
++    @BeforeTest
++    public void beforeTest(){
++        bundle = ResourceBundle.getBundle("application", Locale.CHINA);
++        url = bundle.getString("test.url");
++    }
++
++    @Test
++    public void testGetCookies() throws IOException {
++        String result;
++        //从配置文件中 拼接测试的url
++        String uri = bundle.getString("getCookies.uri");
++        String testUrl = this.url + uri;
++//        System.out.println("--------" + testUrl);
++
++        //测试逻辑代码书写
++        HttpGet get = new HttpGet(testUrl);
++        DefaultHttpClient client = new DefaultHttpClient();
++        HttpResponse response = client.execute(get);
++        result  = EntityUtils.toString(response.getEntity(),"utf-8");
++        System.out.println("============" + result);
++
++        // 获取cookies信息
++        this.store = client.getCookieStore();
++        List<Cookie> cookies_list = store.getCookies();
++
++        for (Cookie c : cookies_list){
++            String name = c.getName();
++            String value = c.getValue();
++            System.out.println("cookies name = " + name +
++                    "\ncookies value = " + value);
++        }
++    }
++
++    @Test(dependsOnMethods = {"testGetCookies"})
++    public void testGetWithCookies() throws IOException {
++        // 拼接最终的测试地址
++        String uri = bundle.getString("test.post.with.cookies");
++        String testurl = this.url +uri;
++
++        // 声明一个client对象，用来进行方法的执行
++        DefaultHttpClient client =  new DefaultHttpClient();
++
++        // 声明一个方法，这个方法就是post方法
++        HttpPost post = new HttpPost(testurl);
++
++        // 创建json格式，再进行添加参数
++        JSONObject jsonObject = new JSONObject();
++        JSONObject param = new JSONObject();
++        param.put("username","zhangsan");
++        param.put("password","123456");
++
++        // 设置请求头信息，设置header
++        post.setHeader("Content-Type","application/json");
++        // 将参数信息添加到方法中
++        StringEntity entity = new StringEntity(param.toString(),"utf-8");
++        post.setEntity(entity);
++        // 声明一个对象来进行响应结果的存储
++        String result;
++        // 设置cookies信息
++        client.setCookieStore(this.store);
++        // 执行post方法
++        HttpResponse response = client.execute(post);
++        // 获取响应结果
++        result  = EntityUtils.toString(response.getEntity(),"utf-8");
++        System.out.println("============" + result);
++        // 处理结果，就是判断返回结果是否符合预期
++        // 将返回的响应结果字符串转化成为json对象
++
++        JSONObject resultJson = new JSONObject(result);
++        // 获取到结果值
++        String messages = (String) resultJson.get("messages");
++        String code = (String) resultJson.get("code");
++        //具体的判断返回结果的值
++        Assert.assertEquals("success",messages);
++        Assert.assertEquals("200",code);
++
++
++
++
++    }
++
++}
++
+Index: Chapter06/src/main/resources/log.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Chapter06/src/main/resources/log.xml b/Chapter06/src/main/resources/log.xml
+new file mode 100644
+--- /dev/null	(date 1619517730582)
++++ b/Chapter06/src/main/resources/log.xml	(date 1619517730582)
+@@ -0,0 +1,24 @@
++<?xml version="1.0" encoding="UTF-8" ?>
++<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
++
++<suite name="我自己写的接口测试套件">
++    <test name="这些是测试模块">
++        <classes>
++            <class name="com.tester.extend.demo.TestMethodsDemo">
++                <methods>
++                    <include name="test1"/>
++                    <include name="test2"/>
++                    <include name="test3"/>
++                    <include name="logDemo"/>
++
++                </methods>
++            </class>
++        </classes>
++    </test>
++
++    <listeners>
++<!--        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>-->
++<!--        <listener class-name="com.tester.extend.demo.ExtentTestNGIReporterListenerOld"/>-->
++        <listener class-name="com.tester.extend.demo.ExtentTestNGIReporterListener"/>
++    </listeners>
++</suite>
+\ No newline at end of file
+Index: Chapter06/src/main/java/com/tester/extend/demo/ExtentTestNGIReporterListenerOld.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Chapter06/src/main/java/com/tester/extend/demo/ExtentTestNGIReporterListenerOld.java b/Chapter06/src/main/java/com/tester/extend/demo/ExtentTestNGIReporterListenerOld.java
+new file mode 100644
+--- /dev/null	(date 1523179076000)
++++ b/Chapter06/src/main/java/com/tester/extend/demo/ExtentTestNGIReporterListenerOld.java	(date 1523179076000)
+@@ -0,0 +1,192 @@
++package com.tester.extend.demo;
++
++
++import com.aventstack.extentreports.ExtentReports;
++import com.aventstack.extentreports.ExtentTest;
++import com.aventstack.extentreports.Status;
++import com.aventstack.extentreports.model.TestAttribute;
++import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
++import com.aventstack.extentreports.reporter.configuration.ChartLocation;
++import com.aventstack.extentreports.reporter.configuration.Theme;
++import org.testng.*;
++import org.testng.xml.XmlSuite;
++
++import java.io.File;
++import java.util.*;
++
++public class ExtentTestNGIReporterListenerOld implements IReporter {
++    //生成的路径以及文件名
++    private static final String OUTPUT_FOLDER = "test-output/";
++    private static final String FILE_NAME = "index.html";
++
++    private ExtentReports extent;
++
++    @Override
++    public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
++        init();
++        boolean createSuiteNode = false;
++        if(suites.size()>1){
++            createSuiteNode=true;
++        }
++        for (ISuite suite : suites) {
++            Map<String, ISuiteResult> result = suite.getResults();
++            //如果suite里面没有任何用例，直接跳过，不在报告里生成
++            if(result.size()==0){
++                continue;
++            }
++            //统计suite下的成功、失败、跳过的总用例数
++            int suiteFailSize=0;
++            int suitePassSize=0;
++            int suiteSkipSize=0;
++            ExtentTest suiteTest=null;
++            //存在多个suite的情况下，在报告中将同一个一个suite的测试结果归为一类，创建一级节点。
++            if(createSuiteNode){
++                suiteTest = extent.createTest(suite.getName()).assignCategory(suite.getName());
++            }
++            boolean createSuiteResultNode = false;
++            if(result.size()>1){
++                createSuiteResultNode=true;
++            }
++            for (ISuiteResult r : result.values()) {
++                ExtentTest resultNode;
++                ITestContext context = r.getTestContext();
++                if(createSuiteResultNode){
++                    //没有创建suite的情况下，将在SuiteResult的创建为一级节点，否则创建为suite的一个子节点。
++                    if( null == suiteTest){
++                        resultNode = extent.createTest(r.getTestContext().getName());
++                    }else{
++                        resultNode = suiteTest.createNode(r.getTestContext().getName());
++                    }
++                }else{
++                    resultNode = suiteTest;
++                }
++                if(resultNode != null){
++                    resultNode.getModel().setName(suite.getName()+" : "+r.getTestContext().getName());
++                    if(resultNode.getModel().hasCategory()){
++                        resultNode.assignCategory(r.getTestContext().getName());
++                    }else{
++                        resultNode.assignCategory(suite.getName(),r.getTestContext().getName());
++                    }
++                    resultNode.getModel().setStartTime(r.getTestContext().getStartDate());
++                    resultNode.getModel().setEndTime(r.getTestContext().getEndDate());
++                    //统计SuiteResult下的数据
++                    int passSize = r.getTestContext().getPassedTests().size();
++                    int failSize = r.getTestContext().getFailedTests().size();
++                    int skipSize = r.getTestContext().getSkippedTests().size();
++                    suitePassSize += passSize;
++                    suiteFailSize += failSize;
++                    suiteSkipSize += skipSize;
++                    if(failSize>0){
++                        resultNode.getModel().setStatus(Status.FAIL);
++                    }
++                    resultNode.getModel().setDescription(String.format("Pass: %s ; Fail: %s ; Skip: %s ;",passSize,failSize,skipSize));
++                }
++                buildTestNodes(resultNode,context.getFailedTests(), Status.FAIL);
++                buildTestNodes(resultNode,context.getSkippedTests(), Status.SKIP);
++                buildTestNodes(resultNode,context.getPassedTests(), Status.PASS);
++            }
++            if(suiteTest!= null){
++                suiteTest.getModel().setDescription(String.format("Pass: %s ; Fail: %s ; Skip: %s ;",suitePassSize,suiteFailSize,suiteSkipSize));
++                if(suiteFailSize>0){
++                    suiteTest.getModel().setStatus(Status.FAIL);
++                }
++            }
++
++        }
++//        for (String s : Reporter.getOutput()) {
++//            extent.setTestRunnerOutput(s);
++//        }
++
++        extent.flush();
++    }
++
++    private void init() {
++        //文件夹不存在的话进行创建
++        File reportDir= new File(OUTPUT_FOLDER);
++        if(!reportDir.exists()&& !reportDir .isDirectory()){
++            reportDir.mkdir();
++        }
++        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(OUTPUT_FOLDER + FILE_NAME);
++        // 设置静态文件的DNS
++        htmlReporter.config().setDocumentTitle("api自动化测试报告");
++        htmlReporter.config().setReportName("api自动化测试报告");
++        htmlReporter.config().setChartVisibilityOnOpen(true);
++        htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
++        htmlReporter.config().setTheme(Theme.STANDARD);
++        htmlReporter.config().setCSS(".node.level-1  ul{ display:none;} .node.level-1.active ul{display:block;}");
++        extent = new ExtentReports();
++        extent.attachReporter(htmlReporter);
++        extent.setReportUsesManualConfiguration(true);
++    }
++
++    private void buildTestNodes(ExtentTest extenttest, IResultMap tests, Status status) {
++        //存在父节点时，获取父节点的标签
++        String[] categories=new String[0];
++        if(extenttest != null ){
++            List<TestAttribute> categoryList = extenttest.getModel().getCategoryContext().getAll();
++            categories = new String[categoryList.size()];
++            for(int index=0;index<categoryList.size();index++){
++                categories[index] = categoryList.get(index).getName();
++            }
++        }
++
++        ExtentTest test;
++
++        if (tests.size() > 0) {
++            //调整用例排序，按时间排序
++            Set<ITestResult> treeSet = new TreeSet<ITestResult>(new Comparator<ITestResult>() {
++                @Override
++                public int compare(ITestResult o1, ITestResult o2) {
++                    return o1.getStartMillis()<o2.getStartMillis()?-1:1;
++                }
++            });
++            treeSet.addAll(tests.getAllResults());
++            for (ITestResult result : treeSet) {
++                Object[] parameters = result.getParameters();
++                String name="";
++                //如果有参数，则使用参数的toString组合代替报告中的name
++                for(Object param:parameters){
++                    name+=param.toString();
++                }
++                if(name.length()>0){
++                    if(name.length()>50){
++                        name= name.substring(0,49)+"...";
++                    }
++                }else{
++                    name = result.getMethod().getMethodName();
++                }
++                if(extenttest==null){
++                    test = extent.createTest(name);
++                }else{
++                    //作为子节点进行创建时，设置同父节点的标签一致，便于报告检索。
++                    test = extenttest.createNode(name).assignCategory(categories);
++                }
++                //test.getModel().setDescription(description.toString());
++                //test = extent.createTest(result.getMethod().getMethodName());
++                for (String group : result.getMethod().getGroups())
++                    test.assignCategory(group);
++
++                List<String> outputList = Reporter.getOutput(result);
++                for(String output:outputList){
++                    //将用例的log输出报告中
++                    test.debug(output);
++                }
++                if (result.getThrowable() != null) {
++                    test.log(status, result.getThrowable());
++                }
++                else {
++                    test.log(status, "Test " + status.toString().toLowerCase() + "ed");
++                }
++
++                test.getModel().setStartTime(getTime(result.getStartMillis()));
++                test.getModel().setEndTime(getTime(result.getEndMillis()));
++            }
++        }
++    }
++
++    private Date getTime(long millis) {
++        Calendar calendar = Calendar.getInstance();
++        calendar.setTimeInMillis(millis);
++        return calendar.getTime();
++    }
++}
+\ No newline at end of file
+Index: Chapter06/src/main/java/com/tester/extend/demo/ExtentTestNGIReporterListener.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Chapter06/src/main/java/com/tester/extend/demo/ExtentTestNGIReporterListener.java b/Chapter06/src/main/java/com/tester/extend/demo/ExtentTestNGIReporterListener.java
+new file mode 100644
+--- /dev/null	(date 1523179076000)
++++ b/Chapter06/src/main/java/com/tester/extend/demo/ExtentTestNGIReporterListener.java	(date 1523179076000)
+@@ -0,0 +1,196 @@
++package com.tester.extend.demo;
++
++
++import com.aventstack.extentreports.ExtentReports;
++import com.aventstack.extentreports.ExtentTest;
++import com.aventstack.extentreports.ResourceCDN;
++import com.aventstack.extentreports.Status;
++import com.aventstack.extentreports.model.TestAttribute;
++import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
++import com.aventstack.extentreports.reporter.configuration.ChartLocation;
++import com.aventstack.extentreports.reporter.configuration.Theme;
++import org.testng.*;
++import org.testng.xml.XmlSuite;
++
++import java.io.File;
++import java.util.*;
++
++public class ExtentTestNGIReporterListener implements IReporter {
++    //生成的路径以及文件名
++    private static final String OUTPUT_FOLDER = "test-output/";
++    private static final String FILE_NAME = "index.html";
++
++    private ExtentReports extent;
++
++    @Override
++    public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
++        init();
++        boolean createSuiteNode = false;
++        if(suites.size()>1){
++            createSuiteNode=true;
++        }
++        for (ISuite suite : suites) {
++            Map<String, ISuiteResult> result = suite.getResults();
++            //如果suite里面没有任何用例，直接跳过，不在报告里生成
++            if(result.size()==0){
++                continue;
++            }
++            //统计suite下的成功、失败、跳过的总用例数
++            int suiteFailSize=0;
++            int suitePassSize=0;
++            int suiteSkipSize=0;
++            ExtentTest suiteTest=null;
++            //存在多个suite的情况下，在报告中将同一个一个suite的测试结果归为一类，创建一级节点。
++            if(createSuiteNode){
++                suiteTest = extent.createTest(suite.getName()).assignCategory(suite.getName());
++            }
++            boolean createSuiteResultNode = false;
++            if(result.size()>1){
++                createSuiteResultNode=true;
++            }
++            for (ISuiteResult r : result.values()) {
++                ExtentTest resultNode;
++                ITestContext context = r.getTestContext();
++                if(createSuiteResultNode){
++                    //没有创建suite的情况下，将在SuiteResult的创建为一级节点，否则创建为suite的一个子节点。
++                    if( null == suiteTest){
++                        resultNode = extent.createTest(r.getTestContext().getName());
++                    }else{
++                        resultNode = suiteTest.createNode(r.getTestContext().getName());
++                    }
++                }else{
++                    resultNode = suiteTest;
++                }
++                if(resultNode != null){
++                    resultNode.getModel().setName(suite.getName()+" : "+r.getTestContext().getName());
++                    if(resultNode.getModel().hasCategory()){
++                        resultNode.assignCategory(r.getTestContext().getName());
++                    }else{
++                        resultNode.assignCategory(suite.getName(),r.getTestContext().getName());
++                    }
++                    resultNode.getModel().setStartTime(r.getTestContext().getStartDate());
++                    resultNode.getModel().setEndTime(r.getTestContext().getEndDate());
++                    //统计SuiteResult下的数据
++                    int passSize = r.getTestContext().getPassedTests().size();
++                    int failSize = r.getTestContext().getFailedTests().size();
++                    int skipSize = r.getTestContext().getSkippedTests().size();
++                    suitePassSize += passSize;
++                    suiteFailSize += failSize;
++                    suiteSkipSize += skipSize;
++                    if(failSize>0){
++                        resultNode.getModel().setStatus(Status.FAIL);
++                    }
++                    resultNode.getModel().setDescription(String.format("Pass: %s ; Fail: %s ; Skip: %s ;",passSize,failSize,skipSize));
++                }
++                buildTestNodes(resultNode,context.getFailedTests(), Status.FAIL);
++                buildTestNodes(resultNode,context.getSkippedTests(), Status.SKIP);
++                buildTestNodes(resultNode,context.getPassedTests(), Status.PASS);
++            }
++            if(suiteTest!= null){
++                suiteTest.getModel().setDescription(String.format("Pass: %s ; Fail: %s ; Skip: %s ;",suitePassSize,suiteFailSize,suiteSkipSize));
++                if(suiteFailSize>0){
++                    suiteTest.getModel().setStatus(Status.FAIL);
++                }
++            }
++
++        }
++//        for (String s : Reporter.getOutput()) {
++//            extent.setTestRunnerOutput(s);
++//        }
++
++        extent.flush();
++    }
++
++    private void init() {
++        //文件夹不存在的话进行创建
++        File reportDir= new File(OUTPUT_FOLDER);
++        if(!reportDir.exists()&& !reportDir .isDirectory()){
++            reportDir.mkdir();
++        }
++        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(OUTPUT_FOLDER + FILE_NAME);
++        // 设置静态文件的DNS
++        //怎么样解决cdn.rawgit.com访问不了的情况
++        htmlReporter.config().setResourceCDN(ResourceCDN.EXTENTREPORTS);
++
++        htmlReporter.config().setDocumentTitle("api自动化测试报告");
++        htmlReporter.config().setReportName("api自动化测试报告");
++        htmlReporter.config().setChartVisibilityOnOpen(true);
++        htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
++        htmlReporter.config().setTheme(Theme.STANDARD);
++        htmlReporter.config().setCSS(".node.level-1  ul{ display:none;} .node.level-1.active ul{display:block;}");
++        extent = new ExtentReports();
++        extent.attachReporter(htmlReporter);
++        extent.setReportUsesManualConfiguration(true);
++    }
++
++    private void buildTestNodes(ExtentTest extenttest, IResultMap tests, Status status) {
++        //存在父节点时，获取父节点的标签
++        String[] categories=new String[0];
++        if(extenttest != null ){
++            List<TestAttribute> categoryList = extenttest.getModel().getCategoryContext().getAll();
++            categories = new String[categoryList.size()];
++            for(int index=0;index<categoryList.size();index++){
++                categories[index] = categoryList.get(index).getName();
++            }
++        }
++
++        ExtentTest test;
++
++        if (tests.size() > 0) {
++            //调整用例排序，按时间排序
++            Set<ITestResult> treeSet = new TreeSet<ITestResult>(new Comparator<ITestResult>() {
++                @Override
++                public int compare(ITestResult o1, ITestResult o2) {
++                    return o1.getStartMillis()<o2.getStartMillis()?-1:1;
++                }
++            });
++            treeSet.addAll(tests.getAllResults());
++            for (ITestResult result : treeSet) {
++                Object[] parameters = result.getParameters();
++                String name="";
++                //如果有参数，则使用参数的toString组合代替报告中的name
++                for(Object param:parameters){
++                    name+=param.toString();
++                }
++                if(name.length()>0){
++                    if(name.length()>50){
++                        name= name.substring(0,49)+"...";
++                    }
++                }else{
++                    name = result.getMethod().getMethodName();
++                }
++                if(extenttest==null){
++                    test = extent.createTest(name);
++                }else{
++                    //作为子节点进行创建时，设置同父节点的标签一致，便于报告检索。
++                    test = extenttest.createNode(name).assignCategory(categories);
++                }
++                //test.getModel().setDescription(description.toString());
++                //test = extent.createTest(result.getMethod().getMethodName());
++                for (String group : result.getMethod().getGroups())
++                    test.assignCategory(group);
++
++                List<String> outputList = Reporter.getOutput(result);
++                for(String output:outputList){
++                    //将用例的log输出报告中
++                    test.debug(output);
++                }
++                if (result.getThrowable() != null) {
++                    test.log(status, result.getThrowable());
++                }
++                else {
++                    test.log(status, "Test " + status.toString().toLowerCase() + "ed");
++                }
++
++                test.getModel().setStartTime(getTime(result.getStartMillis()));
++                test.getModel().setEndTime(getTime(result.getEndMillis()));
++            }
++        }
++    }
++
++    private Date getTime(long millis) {
++        Calendar calendar = Calendar.getInstance();
++        calendar.setTimeInMillis(millis);
++        return calendar.getTime();
++    }
++}
+\ No newline at end of file
+Index: Chapter06/test-output/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Chapter06/test-output/index.html b/Chapter06/test-output/index.html
+new file mode 100644
+--- /dev/null	(date 1619517978027)
++++ b/Chapter06/test-output/index.html	(date 1619517978027)
+@@ -0,0 +1,608 @@
++
++<!DOCTYPE html>
++<html>
++
++
++<head>
++	<meta charset='utf-8' /> 
++	<meta name='description' content='' />
++	<meta name='robots' content='noodp, noydir' />
++	<meta name='viewport' content='width=device-width, initial-scale=1' />
++	<meta id="timeStampFormat" name="timeStampFormat" content='MMM d, yyyy hh:mm:ss a'/>
++	
++	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
++	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
++
++		<link href='http://extentreports.com/resx/dist/css/extent.css' type='text/css' rel='stylesheet' />
++	
++	<title>api自动化测试报告</title>
++
++	<style type='text/css'>
++		.node.level-1  ul{ display:none;} .node.level-1.active ul{display:block;}
++	</style>
++</head>
++
++	<body class='extent standard default hide-overflow '>
++		<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>
++			<span><i class='material-icons'>desktop_windows</i></span>
++		</div>
++
++<nav>
++	<div class="nav-wrapper">
++		<a href="#!" class="brand-logo blue darken-3">Extent</a>
++
++		<!-- slideout menu -->
++		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
++			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
++						<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
++			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
++		</ul>
++
++		<!-- report name -->
++		<span class='report-name'>api自动化测试报告</span>
++		
++		<!-- report headline -->
++		<span class='report-headline'></span>
++
++		<!-- nav-right -->
++		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
++			<li>
++                <a href='#!'>
++                    <span class='label suite-start-time blue darken-3'>Apr 27, 2021 06:06:17 PM</span>
++				</a>
++			</li>
++			<li>
++                <a href='#!'>
++                    <span class='label blue darken-3'>v3.0.5</span>
++				</a>
++			</li>
++		</ul>
++	</div>
++</nav>
++
++		<!-- container -->
++		<div class='container'>
++
++<div id='test-view' class='view'>
++				
++	<section id='controls'>
++		<div class='controls grey lighten-4'>
++			<!-- test toggle -->
++			<div class='chip transparent'>
++				<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>
++					<i class='material-icons'>warning</i> Status
++				</a>
++				<ul id='tests-toggle' class='dropdown-content'>
++											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
++						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
++					<li class='divider'></li>
++					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
++				</ul>
++			</div>
++			<!-- test toggle -->
++
++			<!-- category toggle -->
++			<!-- category toggle -->
++
++			<!-- clear filters -->
++			<div class='chip transparent hide'>
++				<a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>
++					<i class='material-icons'>close</i> Clear
++				</a>
++			</div>
++			<!-- clear filters -->
++
++			<!-- enable dashboard -->
++			<div id='toggle-test-view-charts' class='chip transparent'>
++				<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
++					<i class='material-icons'>track_changes</i> Dashboard
++				</a>
++			</div>
++			<!-- enable dashboard -->
++
++			<!-- search -->
++			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
++				<a href="#" class='search-div'>
++					<i class='material-icons'>search</i> Search
++				</a>
++
++				<div class='input-field left hide'>
++					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
++				</div>
++				
++			</div>
++			<!-- search -->
++		</div>
++	</section>
++
++
++<div id='test-view-charts' class='subview-full'>
++	<div id='charts-row' class='row nm-v nm-h'>
++		<div class='col s12 m6 l6 np-h'>
++			<div class='card-panel nm-v'>
++				<div class='left panel-name'>Tests</div>
++				<div class='chart-box'>
++					<canvas id='parent-analysis' width='100' height='80'></canvas>
++				</div>
++				<div class='block text-small'>
++					<span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>2</span> test(s) passed</span>
++				</div>
++				<div class='block text-small'>
++					<span class='strong tooltipped' data-position='top' data-tooltip='50%'>2</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
++				</div>
++			</div>
++		</div>
++		
++		<div class='col s12 m6 l6 np-h'>
++			<div class='card-panel nm-v'>
++				<div class='left panel-name'>Steps</div>
++				<div class='chart-box'>
++					<canvas id='child-analysis' width='100' height='80'></canvas>
++				</div>
++				<div class='block text-small'>
++					<span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>2</span> step(s) passed</span>
++				</div>
++				<div class='block text-small'>
++					<span class='strong tooltipped' data-position='top' data-tooltip='50%'>2</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
++				</div>
++			</div>
++		</div>
++		
++	</div>
++</div>
++
++	<div class='subview-left left'>
++		
++		<div class='view-summary'>
++			<h5>Tests</h5>
++			<ul id='test-collection' class='test-collection'>
++				
++				
++				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
++					<div class='test-heading'>
++						<span class='test-name'>test1</span>
++						<span class='test-time'>Apr 27, 2021 06:06:17 PM</span>
++						<span class='test-status right fail'>fail</span>
++					</div>
++					<div class='test-content hide'>
++<div class='test-time-info'>
++	<span class='label start-time'>Apr 27, 2021 06:06:17 PM</span>
++	<span class='label end-time'>Apr 27, 2021 06:06:17 PM</span>
++	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+16ms</span>
++</div>
++	<div class='test-steps'>
++		<table class='bordered table-results'>
++			<thead>
++				<tr>
++					<th>Status</th>
++					<th>Timestamp</th>
++					<th>Details</th>
++				</tr>
++			</thead>
++			<tbody>
++				<tr class='log' status='fail'>
++					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
++					<td class='timestamp'>6:06:17 PM</td>
++					<td class='step-details'><pre>java.lang.AssertionError: expected [2] but found [1]
++	at org.testng.Assert.fail(Assert.java:94)
++	at org.testng.Assert.failNotEquals(Assert.java:513)
++	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
++	at org.testng.Assert.assertEquals(Assert.java:116)
++	at org.testng.Assert.assertEquals(Assert.java:389)
++	at org.testng.Assert.assertEquals(Assert.java:399)
++	at com.tester.extend.demo.TestMethodsDemo.test1(TestMethodsDemo.java:17)
++	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
++	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
++	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
++	at java.lang.reflect.Method.invoke(Method.java:497)
++	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
++	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
++	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
++	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
++	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
++	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
++	at org.testng.TestRunner.privateRun(TestRunner.java:756)
++	at org.testng.TestRunner.run(TestRunner.java:610)
++	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
++	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
++	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
++	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
++	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
++	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
++	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
++	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
++	at org.testng.TestNG.runSuites(TestNG.java:1133)
++	at org.testng.TestNG.run(TestNG.java:1104)
++	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
++	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
++</pre></td>
++				</tr>
++			</tbody>
++		</table>
++	</div>
++					</div>
++				</li>
++				
++				
++				<li class='test displayed active  fail' status='fail' bdd='false' test-id='2'>
++					<div class='test-heading'>
++						<span class='test-name'>logDemo</span>
++						<span class='test-time'>Apr 27, 2021 06:06:17 PM</span>
++						<span class='test-status right fail'>fail</span>
++					</div>
++					<div class='test-content hide'>
++<div class='test-time-info'>
++	<span class='label start-time'>Apr 27, 2021 06:06:17 PM</span>
++	<span class='label end-time'>Apr 27, 2021 06:06:17 PM</span>
++	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
++</div>
++	<div class='test-steps'>
++		<table class='bordered table-results'>
++			<thead>
++				<tr>
++					<th>Status</th>
++					<th>Timestamp</th>
++					<th>Details</th>
++				</tr>
++			</thead>
++			<tbody>
++				<tr class='log' status='debug'>
++					<td class='status debug' title='debug' alt='debug'><i class='material-icons'>low_priority</i></td>
++					<td class='timestamp'>6:06:17 PM</td>
++					<td class='step-details'>这是我们自己写的日志</td>
++				</tr>
++				<tr class='log' status='fail'>
++					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
++					<td class='timestamp'>6:06:17 PM</td>
++					<td class='step-details'><pre>java.lang.RuntimeException: 这是我自己运行的异常
++	at com.tester.extend.demo.TestMethodsDemo.logDemo(TestMethodsDemo.java:33)
++	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
++	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
++	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
++	at java.lang.reflect.Method.invoke(Method.java:497)
++	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
++	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
++	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
++	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
++	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
++	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
++	at org.testng.TestRunner.privateRun(TestRunner.java:756)
++	at org.testng.TestRunner.run(TestRunner.java:610)
++	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
++	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
++	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
++	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
++	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
++	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
++	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
++	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
++	at org.testng.TestNG.runSuites(TestNG.java:1133)
++	at org.testng.TestNG.run(TestNG.java:1104)
++	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
++	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
++</pre></td>
++				</tr>
++			</tbody>
++		</table>
++	</div>
++					</div>
++				</li>
++				
++				
++				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
++					<div class='test-heading'>
++						<span class='test-name'>test2</span>
++						<span class='test-time'>Apr 27, 2021 06:06:17 PM</span>
++						<span class='test-status right pass'>pass</span>
++					</div>
++					<div class='test-content hide'>
++<div class='test-time-info'>
++	<span class='label start-time'>Apr 27, 2021 06:06:17 PM</span>
++	<span class='label end-time'>Apr 27, 2021 06:06:17 PM</span>
++	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
++</div>
++	<div class='test-steps'>
++		<table class='bordered table-results'>
++			<thead>
++				<tr>
++					<th>Status</th>
++					<th>Timestamp</th>
++					<th>Details</th>
++				</tr>
++			</thead>
++			<tbody>
++				<tr class='log' status='pass'>
++					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
++					<td class='timestamp'>6:06:17 PM</td>
++					<td class='step-details'>Test passed</td>
++				</tr>
++			</tbody>
++		</table>
++	</div>
++					</div>
++				</li>
++				
++				
++				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
++					<div class='test-heading'>
++						<span class='test-name'>test3</span>
++						<span class='test-time'>Apr 27, 2021 06:06:17 PM</span>
++						<span class='test-status right pass'>pass</span>
++					</div>
++					<div class='test-content hide'>
++<div class='test-time-info'>
++	<span class='label start-time'>Apr 27, 2021 06:06:17 PM</span>
++	<span class='label end-time'>Apr 27, 2021 06:06:17 PM</span>
++	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
++</div>
++	<div class='test-steps'>
++		<table class='bordered table-results'>
++			<thead>
++				<tr>
++					<th>Status</th>
++					<th>Timestamp</th>
++					<th>Details</th>
++				</tr>
++			</thead>
++			<tbody>
++				<tr class='log' status='pass'>
++					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
++					<td class='timestamp'>6:06:17 PM</td>
++					<td class='step-details'>Test passed</td>
++				</tr>
++			</tbody>
++		</table>
++	</div>
++					</div>
++				</li>
++			</ul>
++		</div>
++	</div>
++	<!-- subview left -->
++
++	<div class='subview-right left'>
++		<div class='view-summary'>
++			<h5 class='test-name'></h5>
++
++			<div id='step-filters' class="right">
++				<span class="blue-text" status="info" alt="info" title="info"><i class="material-icons">info_outline</i></span>
++				<span class="green-text" status="pass" alt="pass" title="pass"><i class="material-icons">check_circle</i></span>
++				<span class="red-text" status="fail" alt="fail" title="fail"><i class="material-icons">cancel</i></span>
++				<span class="red-text text-darken-4" status="fatal" alt="fatal" title="fatal"><i class="material-icons">cancel</i></span>
++				<span class="pink-text text-lighten-1" status="error" alt="error" title="error"><i class="material-icons">error</i></span>
++				<span class="orange-text" alt="warning" status="warning" title="warning"><i class="material-icons">warning</i></span>
++				<span class="teal-text" status="skip" alt="skip" title="skip"><i class="material-icons">redo</i></span>
++				<span status="clear" alt="Clear filters" title="Clear filters"><i class="material-icons">clear</i></span>
++			</div>
++		</div>
++	</div>
++	<!-- subview right -->
++
++</div>
++<!-- test view -->
++<!-- category view -->
++<div id='exception-view' class='view hide'>
++
++    <section id='controls'>
++        <div class='controls grey lighten-4'>
++            <!-- search -->
++            <div class='chip transparent' alt='Search Tests' title='Search Tests'>
++                <a href="#" class='search-div'>
++                    <i class='material-icons'>search</i> Search
++                </a>
++
++                <div class='input-field left hide'>
++                    <input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
++                </div>
++
++            </div>
++            <!-- search -->
++        </div>
++    </section>
++
++    <div class='subview-left left'>
++
++        <div class='view-summary'>
++            <h5>Exceptions</h3>
++                <ul id='exception-collection' class='exception-collection'>
++
++                        <li class='exception displayed active'>
++                            <div class='exception-heading'>
++                                <span class='exception-name'>java.lang.AssertionError</span>
++                                <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
++                            </div>
++                            <div class='exception-content hide'>
++                                <div class='exception-tests'>
++                                    <table class='bordered table-results'>
++                                        <thead>
++                                        <tr>
++                                            <th>Timestamp</th>
++                                            <th>TestName</th>
++                                            <th>Status</th>
++                                        </tr>
++                                        </thead>
++                                        <tbody>
++                                                    <tr>
++                                                        <td>Apr 27, 2021 06:06:17 PM</td>
++                                                        <td class='linked' test-id='1'>test1</td>
++                                                        <td><pre><pre>java.lang.AssertionError: expected [2] but found [1]
++	at org.testng.Assert.fail(Assert.java:94)
++	at org.testng.Assert.failNotEquals(Assert.java:513)
++	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
++	at org.testng.Assert.assertEquals(Assert.java:116)
++	at org.testng.Assert.assertEquals(Assert.java:389)
++	at org.testng.Assert.assertEquals(Assert.java:399)
++	at com.tester.extend.demo.TestMethodsDemo.test1(TestMethodsDemo.java:17)
++	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
++	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
++	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
++	at java.lang.reflect.Method.invoke(Method.java:497)
++	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
++	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
++	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
++	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
++	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
++	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
++	at org.testng.TestRunner.privateRun(TestRunner.java:756)
++	at org.testng.TestRunner.run(TestRunner.java:610)
++	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
++	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
++	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
++	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
++	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
++	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
++	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
++	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
++	at org.testng.TestNG.runSuites(TestNG.java:1133)
++	at org.testng.TestNG.run(TestNG.java:1104)
++	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
++	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
++</pre></pre></td>
++                                                    </tr>
++                                        </tbody>
++                                    </table>
++                                </div>
++                            </div>
++                        </li>
++                        <li class='exception displayed active'>
++                            <div class='exception-heading'>
++                                <span class='exception-name'>java.lang.RuntimeException</span>
++                                <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
++                            </div>
++                            <div class='exception-content hide'>
++                                <div class='exception-tests'>
++                                    <table class='bordered table-results'>
++                                        <thead>
++                                        <tr>
++                                            <th>Timestamp</th>
++                                            <th>TestName</th>
++                                            <th>Status</th>
++                                        </tr>
++                                        </thead>
++                                        <tbody>
++                                                    <tr>
++                                                        <td>Apr 27, 2021 06:06:17 PM</td>
++                                                        <td class='linked' test-id='2'>logDemo</td>
++                                                        <td><pre><pre>java.lang.RuntimeException: 这是我自己运行的异常
++	at com.tester.extend.demo.TestMethodsDemo.logDemo(TestMethodsDemo.java:33)
++	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
++	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
++	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
++	at java.lang.reflect.Method.invoke(Method.java:497)
++	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
++	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
++	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
++	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
++	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
++	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
++	at org.testng.TestRunner.privateRun(TestRunner.java:756)
++	at org.testng.TestRunner.run(TestRunner.java:610)
++	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
++	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
++	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
++	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
++	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
++	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
++	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
++	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
++	at org.testng.TestNG.runSuites(TestNG.java:1133)
++	at org.testng.TestNG.run(TestNG.java:1104)
++	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
++	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
++</pre></pre></td>
++                                                    </tr>
++                                        </tbody>
++                                    </table>
++                                </div>
++                            </div>
++                        </li>
++                </ul>
++        </div>
++    </div>
++
++    <div class='subview-right left'>
++        <div class='view-summary'>
++            <h5 class='exception-name'></h5>
++        </div>
++    </div>
++</div>
++<!-- exception view -->
++<div id='dashboard-view' class='view hide'>
++	<div class='card-panel transparent np-v'>
++		<h5>Dashboard</h5>
++
++		<div class='row'>
++			<div class='col s2'>
++				<div class='card-panel r'>
++					Tests
++					<div class='panel-lead'>4</div>
++				</div>
++			</div>
++			<div class='col s2'>
++				<div class='card-panel r'>
++					Steps
++					<div class='panel-lead'>4</div>
++				</div>
++			</div>
++			<div class='col s2'>
++				<div class='card-panel r'>
++					Start
++					<div class='panel-lead'>Apr 27, 2021 06:06:17 PM</div>
++				</div>
++			</div>
++			<div class='col s2'>
++				<div class='card-panel r'>
++			 		End
++			 		<div class='panel-lead'>Apr 27, 2021 06:06:17 PM</div>
++				</div>
++			</div>
++			<div class='col s2'>
++				<div class='card-panel r'>
++					Time Taken
++					<div class='panel-lead'>16ms</div>
++				</div>
++			</div>
++		</div>
++	</div>
++</div>
++<!-- dashboard view -->
++<!-- testrunner-logs view -->
++		</div>
++		<!-- container -->
++
++		<script>
++			var statusGroup = {
++				passParent: 2,
++				failParent: 2,
++				fatalParent: 0,
++				errorParent: 0,
++				warningParent: 0,
++				skipParent: 0,
++				exceptionsParent: 2,
++				
++				passChild: 2,
++				failChild: 2,
++				fatalChild: 0,
++				errorChild: 0,
++				warningChild: 0,
++				skipChild: 0,
++				infoChild: 0,
++				exceptionsChild: 3,
++				
++				passGrandChild: 0,
++				failGrandChild: 0,
++				fatalGrandChild: 0,
++				errorGrandChild: 0,
++				warningGrandChild: 0,
++				skipGrandChild: 0,
++				infoGrandChild: 0,
++				exceptionsGrandChild: 0,
++			};
++		</script>
++		
++			<script src='http://extentreports.com/resx/dist/js/extent.js' type='text/javascript'></script>
++		
++		
++	</body>
++	
++</html>
+Index: Chapter07/txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Chapter07/txt b/Chapter07/txt
+new file mode 100644
+--- /dev/null	(date 1619519745701)
++++ b/Chapter07/txt	(date 1619519745701)
+@@ -0,0 +1,3 @@
++命令栗子：java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c json配置文件
++java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startup.json
++
+Index: Chapter06/Chapter06.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Chapter06/Chapter06.iml b/Chapter06/Chapter06.iml
+new file mode 100644
+--- /dev/null	(date 1619606396036)
++++ b/Chapter06/Chapter06.iml	(date 1619606396036)
+@@ -0,0 +1,32 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
++    <output url="file://$MODULE_DIR$/target/classes" />
++    <output-test url="file://$MODULE_DIR$/target/test-classes" />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
++      <excludeFolder url="file://$MODULE_DIR$/target" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="Maven: com.relevantcodes:extentreports:2.41.1" level="project" />
++    <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.8.3" level="project" />
++    <orderEntry type="library" name="Maven: org.xerial:sqlite-jdbc:3.8.11.1" level="project" />
++    <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.23" level="project" />
++    <orderEntry type="library" name="Maven: org.mongodb:mongodb-driver:3.0.4" level="project" />
++    <orderEntry type="library" name="Maven: org.mongodb:bson:3.0.4" level="project" />
++    <orderEntry type="library" name="Maven: org.mongodb:mongodb-driver-core:3.0.4" level="project" />
++    <orderEntry type="library" name="Maven: com.vimalselvam:testng-extentsreport:1.3.1" level="project" />
++    <orderEntry type="library" name="Maven: org.testng:testng:6.10" level="project" />
++    <orderEntry type="library" name="Maven: com.beust:jcommander:1.48" level="project" />
++    <orderEntry type="library" name="Maven: com.google.guava:guava:20.0" level="project" />
++    <orderEntry type="library" name="Maven: com.aventstack:extentreports:3.0.6" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.2" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.4" level="project" />
++    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
++    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.9" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpmime:4.5.2" level="project" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_json_json_20170516.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_json_json_20170516.xml b/.idea/libraries/Maven__org_json_json_20170516.xml
+new file mode 100644
+--- /dev/null	(date 1619606639621)
++++ b/.idea/libraries/Maven__org_json_json_20170516.xml	(date 1619606639621)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.json:json:20170516">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/json/json/20170516/json-20170516.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/json/json/20170516/json-20170516-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/json/json/20170516/json-20170516-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+new file mode 100644
+--- /dev/null	(date 1619581696419)
++++ b/pom.xml	(date 1619581696419)
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <groupId>com.courese.code</groupId>
++    <artifactId>Chapter</artifactId>
++    <packaging>pom</packaging>
++    <version>1.0-SNAPSHOT</version>
++
++    <modules>
++        <module>Chapter05</module>
++        <module>Chapter06</module>
++        <module>Chapter09</module>
++    </modules>
++
++
++</project>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_testng_testng_6_10.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_testng_testng_6_10.xml b/.idea/libraries/Maven__org_testng_testng_6_10.xml
+new file mode 100644
+--- /dev/null	(date 1619514288904)
++++ b/.idea/libraries/Maven__org_testng_testng_6_10.xml	(date 1619514288904)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.testng:testng:6.10">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_beust_jcommander_1_48.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_beust_jcommander_1_48.xml b/.idea/libraries/Maven__com_beust_jcommander_1_48.xml
+new file mode 100644
+--- /dev/null	(date 1619514288895)
++++ b/.idea/libraries/Maven__com_beust_jcommander_1_48.xml	(date 1619514288895)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.beust:jcommander:1.48">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/beust/jcommander/1.48/jcommander-1.48.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/beust/jcommander/1.48/jcommander-1.48-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/beust/jcommander/1.48/jcommander-1.48-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: Chapter07/startup.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Chapter07/startup.json b/Chapter07/startup.json
+new file mode 100644
+--- /dev/null	(date 1619520093147)
++++ b/Chapter07/startup.json	(date 1619520093147)
+@@ -0,0 +1,14 @@
++[
++  {
++    "description": "这是我们的第一个moco例子",
++    "request": {
++      "uri":"/demo"
++    },
++    "response": {
++      "text": "这是第一个demo的moco框架",
++      "headers": {
++        "Content-Type": "text/html;charset=gbk"
++      }
++    }
++  }
++]
+\ No newline at end of file
+Index: Chapter07/startupPost.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Chapter07/startupPost.json b/Chapter07/startupPost.json
+new file mode 100644
+--- /dev/null	(date 1619577505345)
++++ b/Chapter07/startupPost.json	(date 1619577505345)
+@@ -0,0 +1,32 @@
++[
++  {
++    "description": "模拟一个post请求",
++    "request": {
++      "uri": "/postdemo",
++      "method": "post"
++    },
++    "response":{
++      "text": "这是一个post方法返回信息",
++      "headers": {
++        "Content-Type": "text/html;charset=gbk"
++      }
++    }
++  },
++  {
++    "description": "模拟一个带参数的post请求",
++    "request": {
++      "uri": "/postparamdemo",
++      "method": "post",
++      "forms":{
++        "name": "wangwu",
++        "sex": "man"
++      }
++    },
++    "response": {
++      "text": "这是一个带参数post方法返回",
++      "headers": {
++        "Content-Type": "text/html;charset=gbk"
++      }
++    }
++  }
++]
+\ No newline at end of file
+Index: Chapter07/startupGet.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Chapter07/startupGet.json b/Chapter07/startupGet.json
+new file mode 100644
+--- /dev/null	(date 1619520901819)
++++ b/Chapter07/startupGet.json	(date 1619520901819)
+@@ -0,0 +1,30 @@
++[
++  {
++    "description": "模拟一个没有参数的get请求",
++    "request": {
++      "uri": "/get",
++      "method": "get"
++    },
++    "response":{
++      "text": "这是一个没有参数的get请求",
++      "headers": {
++        "Content-Type": "text/html;charset=gbk"
++      }
++    },
++    "description": "模拟一个带参数的get请求",
++    "request": {
++      "uri": "/get_params",
++      "method": "get",
++      "queries": {
++        "name": "zhangsan",
++        "age": "18"
++      }
++    },
++    "response": {
++      "text": "这是一个带参数的get请求",
++      "headers": {
++        "Content-Type": "text/html;charset=gbk"
++      }
++    }
++  }
++]
+\ No newline at end of file
+Index: Chapter07/starupWithHeader.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Chapter07/starupWithHeader.json b/Chapter07/starupWithHeader.json
+new file mode 100644
+--- /dev/null	(date 1619603391648)
++++ b/Chapter07/starupWithHeader.json	(date 1619603391648)
+@@ -0,0 +1,30 @@
++[
++  {
++    "description": "这是一个自带hearder报文的请求",
++    "request": {
++      "uri": "/post/with/headers",
++      "method": "post",
++      "cookies": {
++        "login": "true"
++      },
++      "headers": {
++        "Content-Type": "application/json"
++      },
++      "json": {
++        "username": "zhangsan",
++        "password": "123456"
++      }
++    },
++    "response": {
++      "json": {
++        "messages": "success",
++        "code": "200"
++      },
++      "headers": {
++        "Content-Type": "text/html;charset=gbk"
++      }
++    }
++  }
++
++
++]
+\ No newline at end of file
+Index: Chapter07/starupWithCookies.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Chapter07/starupWithCookies.json b/Chapter07/starupWithCookies.json
+new file mode 100644
+--- /dev/null	(date 1619603464644)
++++ b/Chapter07/starupWithCookies.json	(date 1619603464644)
+@@ -0,0 +1,62 @@
++[
++  {
++    "description": "这是一个会返回cookies信息的get的请求",
++    "request": {
++      "uri": "/getCookies",
++      "method": "get"
++    },
++    "response": {
++      "cookies": {
++        "login": "true"
++      },
++      "text": "恭喜你成功获得cookies信息",
++      "headers": {
++        "Content-Type": "text/html;charset=gbk"
++      }
++    }
++  },
++  {
++    "description": "模拟一个带cookies信息的请求发送",
++    "request": {
++      "uri": "/get/with/cookies",
++      "method": "get",
++      "cookies": {
++        "login": "true"
++      }
++    },
++    "response": {
++      "text": "这是一个带有cookies信息的响应",
++      "headers": {
++        "Content-Type": "text/html;charset=gbk"
++      }
++    }
++  },
++  {
++    "description": "这是一个自带cookies报文的请求",
++    "request": {
++      "uri": "/post/with/cookies",
++      "method": "post",
++      "cookies": {
++        "login": "true"
++      },
++      "headers": {
++        "Content-Type": "application/json"
++      },
++      "json": {
++        "username": "zhangsan",
++        "password": "123456"
++      }
++    },
++    "response": {
++      "json": {
++        "messages": "success",
++        "code": "200"
++      },
++      "headers": {
++        "Content-Type": "text/html;charset=gbk"
++      }
++    }
++  }
++
++
++]
+\ No newline at end of file
+Index: Chapter07/starupWithRedirct.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Chapter07/starupWithRedirct.json b/Chapter07/starupWithRedirct.json
+new file mode 100644
+--- /dev/null	(date 1619581304581)
++++ b/Chapter07/starupWithRedirct.json	(date 1619581304581)
+@@ -0,0 +1,31 @@
++[
++  {
++    "description": "重定向到百度",
++    "request": {
++      "uri": "/redirect"
++    },
++    "redirectTo": "http://www.baidu.com"
++
++  },
++  {
++    "description": "重定向到一个自己的网页上",
++    "request": {
++      "uri": "/redirect/topath"
++    },
++    "redirectTo":"/rediect/new"
++  },
++  {
++    "description": "这是一个重定向到的请求页面",
++    "request": {
++      "uri": "/rediect/new"
++    },
++    "response": {
++      "text": "恭喜你，重定向成功了",
++      "headers": {
++        "Content-Type": "text/html;charset=gbk"
++      }
++    }
++  }
++
++
++]
+\ No newline at end of file
+Index: Chapter09/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Chapter09/pom.xml b/Chapter09/pom.xml
+new file mode 100644
+--- /dev/null	(date 1619606538789)
++++ b/Chapter09/pom.xml	(date 1619606538789)
+@@ -0,0 +1,43 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <parent>
++        <artifactId>Chapter</artifactId>
++        <groupId>com.courese.code</groupId>
++        <version>1.0-SNAPSHOT</version>
++    </parent>
++    <modelVersion>4.0.0</modelVersion>
++
++    <artifactId>Chapter09</artifactId>
++    <dependencies>
++        <dependency>
++            <groupId>org.testng</groupId>
++            <artifactId>testng</artifactId>
++            <version>RELEASE</version>
++            <scope>compile</scope>
++        </dependency>
++        <dependency>
++            <groupId>org.apache.httpcomponents</groupId>
++            <artifactId>httpclient</artifactId>
++            <version>4.5.2</version>
++            <scope>compile</scope>
++        </dependency>
++        <dependency>
++            <groupId>com.alibaba</groupId>
++            <artifactId>fastjson</artifactId>
++            <version>1.2.70</version>
++        </dependency>
++        <dependency>
++            <groupId>org.json</groupId>
++            <artifactId>json</artifactId>
++            <version>20170516</version>
++        </dependency>
++    </dependencies>
++
++    <properties>
++        <maven.compiler.source>8</maven.compiler.source>
++        <maven.compiler.target>8</maven.compiler.target>
++    </properties>
++
++</project>
+\ No newline at end of file
+Index: Chapter06/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Chapter06/pom.xml b/Chapter06/pom.xml
+new file mode 100644
+--- /dev/null	(date 1619516823200)
++++ b/Chapter06/pom.xml	(date 1619516823200)
+@@ -0,0 +1,34 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <groupId>org.example</groupId>
++    <artifactId>Chapter06</artifactId>
++    <version>1.0-SNAPSHOT</version>
++
++    <properties>
++        <maven.compiler.source>8</maven.compiler.source>
++        <maven.compiler.target>8</maven.compiler.target>
++    </properties>
++
++    <dependencies>
++        <dependency>
++            <groupId>com.relevantcodes</groupId>
++            <artifactId>extentreports</artifactId>
++            <version>2.41.1</version>
++        </dependency>
++        <dependency>
++            <groupId>com.vimalselvam</groupId>
++            <artifactId>testng-extentsreport</artifactId>
++            <version>1.3.1</version>
++        </dependency>
++        <dependency>
++            <groupId>com.aventstack</groupId>
++            <artifactId>extentreports</artifactId>
++            <version>3.0.6</version>
++        </dependency>
++    </dependencies>
++
++</project>
+\ No newline at end of file

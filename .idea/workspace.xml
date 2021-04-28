@@ -125,17 +125,17 @@
       <recent name="D:\AutoTest\Chapter06\src\main\java\com\tester\extend\demo" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MyCookiesForPost.testGetWithCookies">
-    <configuration name="MyCookiesForGet" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter09" />
+  <component name="RunManager" selected="TestNG.D:/AutoTest/Chapter05/src/main/resources/groupsOnClass.xml">
+    <configuration name="BasicAnnotation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
+          <option name="PATTERN" value="com.course.testng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
-      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForGet" />
+      <option name="PACKAGE_NAME" value="com.course.testng" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.BasicAnnotation" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -143,70 +143,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyCookiesForGet.testGetCookies" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
-      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForGet" />
-      <option name="METHOD_NAME" value="testGetCookies" />
-      <option name="TEST_OBJECT" value="METHOD" />
+    <configuration name="D:/AutoTest/Chapter05/src/main/resources/groupsOnClass.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter05" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter05/src/main/resources/groupsOnClass.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyCookiesForGet.testGetWithCookies" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
-      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForGet" />
-      <option name="METHOD_NAME" value="testGetWithCookies" />
-      <option name="TEST_OBJECT" value="METHOD" />
+    <configuration name="D:/AutoTest/Chapter05/src/main/resources/suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter05" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter05/src/main/resources/suite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyCookiesForPost.testGetWithCookies" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter09" />
+    <configuration name="GroupsOnMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
+          <option name="PATTERN" value="com.course.testng.groups.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
-      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForPost" />
-      <option name="METHOD_NAME" value="testGetWithCookies" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="com.course.testng.groups" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.groups.GroupsOnMethod" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyHttpClient.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter09" />
+    <configuration name="GroupsOnMethod.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.httpclient.demo.*" />
+          <option name="PATTERN" value="com.course.testng.groups.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.httpclient.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.demo.MyHttpClient" />
+      <option name="PACKAGE_NAME" value="com.course.testng.groups" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.groups.GroupsOnMethod" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -217,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MyCookiesForPost.testGetWithCookies" />
-        <item itemvalue="TestNG.MyCookiesForGet.testGetWithCookies" />
-        <item itemvalue="TestNG.MyCookiesForGet" />
-        <item itemvalue="TestNG.MyCookiesForGet.testGetCookies" />
-        <item itemvalue="TestNG.MyHttpClient.test1" />
+        <item itemvalue="TestNG.GroupsOnMethod.test1" />
+        <item itemvalue="TestNG.GroupsOnMethod" />
+        <item itemvalue="TestNG.D:/AutoTest/Chapter05/src/main/resources/suite.xml" />
+        <item itemvalue="TestNG.D:/AutoTest/Chapter05/src/main/resources/groupsOnClass.xml" />
+        <item itemvalue="TestNG.BasicAnnotation" />
       </list>
     </recent_temporary>
   </component>
